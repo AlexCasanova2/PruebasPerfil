@@ -36,6 +36,11 @@
     text-align: center;
         border-bottom: 1px solid cadetblue;
 }
+.album{
+    height: 200px;
+    background-color: #5bc0de;
+    margin: 30px;
+}
 .apartados{
     text-align: center;
 }
