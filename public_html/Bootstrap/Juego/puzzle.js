@@ -1,0 +1,37 @@
+$(document).ready(iniciar);
+
+function iniciar(){
+    
+    $("#setClass").click(setClass);
+    $("#setAttr").click(setAttr);
+    $("#addElem").click(addElem);
+}
+
+
+function setClass(){
+    
+    var clas = $("input").val();
+    $(this).addClass(clas);
+}
+
+function setAttr(){
+    
+    var text = $("input").val();
+    $(this).attr("myAttr",text);
+}
+
+function addElem(){
+    
+    var div = $("<div></div>");
+    var txt = $("#setClass").attr("class");
+    div.addClass(txt);
+    
+    div.dblclick(borrame);
+    
+    div.appendTo("#contenidorDivs");
+    div.html("Hasta luego Mari Carmen");
+}
+
+function borrame(){
+    $(this).remove();
+}

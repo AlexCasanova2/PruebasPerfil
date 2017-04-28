@@ -1,0 +1,45 @@
+.general-profile{
+    
+}
+.usu{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.img-usuario{
+    margin: 0 auto;
+    
+}
+.separador{
+    height: 100px;
+}
+.separador2{
+    height: 50px;
+}
+.img-usuario img{
+    max-width:400px;
+    max-height: 400px;
+    margin: 0 auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+}
+.botones{
+    margin: 0 auto;
+    text-align: center;
+}
+.albumes-profile{
+    
+}
+.mis-albumes{
+    text-align: center;
+        border-bottom: 1px solid cadetblue;
+}
+.apartados{
+    text-align: center;
+}
+.page-header{
+    margin: 0 !important;
+    border-color: cadetblue !important;
+}
